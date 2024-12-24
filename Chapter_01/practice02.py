@@ -42,8 +42,8 @@ b = int(input("Enter second number : "))
 
 # OR
 
-# output  = ("False", "True") [a >= b]
-# print(output)
+output  = ("False", "True") [a >= b]
+print(output)
 
 # OR
 
