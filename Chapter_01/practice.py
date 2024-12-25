@@ -17,7 +17,7 @@ Solution:
 
 # #################### Practice 02 #########################
 
-# # # Consider the given expression: 
+# # # Consider the given expression:
 
 """
 not True and False or True
@@ -80,11 +80,11 @@ print("According to your marks your grade is",grade)
  
  """
 
-# # #################### Practice 05 #########################   
+# # #################### Practice 05 #########################
 
-# # #  print ouptut for 
+# # #  print ouptut for
 
-'''
+"""
 # A = 5,  g = "M"
 
 A = int(input("A: "))
@@ -99,45 +99,45 @@ elif((A == 5 or A == 6) and G == "M"):
 else:
     print("No Fees")
   
-'''
-# # #################### Practice 06 #########################  
-'''
+"""
+# # #################### Practice 06 #########################
+"""
  food = input("ENter Food Name: ")
  eat = print("Yes") if food == "spple" else print("No")
  print(eat)
-'''
-# # #################### Practice 07 #########################  
+"""
+# # #################### Practice 07 #########################
 
-'''
+"""
 food = input("Food: ")
 print("Sweet") if food == "mange" or food == "cake" else print("Not Sweet")
-'''    
-# # #################### Practice 07 #########################  
+"""
+# # #################### Practice 07 #########################
 
 # # #  Clever Ternary Operator
 
-'''
+"""
 age = int(input("Enter your age: "))
 result = ("Your CANNOT Vote", "You CAN Vote") [age >= 18]
 print(result)
 
-'''   
-    
-# # #################### Practice 08 #########################  
+"""
+
+# # #################### Practice 08 #########################
 
 # # # Tax calculator
 
-'''
+"""
 sal = float(input("Enter Your Sal: "))
 tax = sal*(0.1, 0.2) [sal >= 50000]
 print("TAX = ", tax)
 
-'''
-# # #################### Practice 09 #########################  
+"""
+# # #################### Practice 09 #########################
 
 # # # calculate interest
 
-'''
+"""
 a = float(input("a: "))
 b = float(input("b: "))
 c = float(input("c: "))
@@ -151,22 +151,22 @@ o = float(input("o: "))
 output = (a*b*c)/100
 print(output)
 
-'''
+"""
 
-# # #################### Practice 10 #########################  
+# # #################### Practice 10 #########################
 # #  Input Function
 
-'''
+"""
 
 name = input("Enter your name: ")
 print("Welcome", (name + " khan ") * 3)
 
-'''
+"""
 
-# #################### Practice 11 ######################### 
+# #################### Practice 11 #########################
 # Taking name, age, marks from user
 
-'''
+"""
 name = input("Enter your name: ")
 age = int(input("Age: "))
 marks = float(input("Marks: "))
@@ -175,12 +175,12 @@ print("Your Name:", name, "| Your Age:", age, "| Your Marks:", marks)
 
 print("typeOF name", type(name), "typeOf Age:", type(age), "typeOf", type(marks))
 
-'''
-# #################### Practice 12 ######################### 
+"""
+# #################### Practice 12 #########################
 
 # Checking if user can vote or not
 
-'''
+"""
 age = int(input("Enter your age : ") ) 
 
 if (age < 18 or age > 60):
@@ -190,22 +190,22 @@ elif (age >= 18):
 else:
     print("Invalid input")
     
-'''
+"""
 
-# #################### Practice 13 ######################### 
+# #################### Practice 13 #########################
 
 # Write a program to check if number entered by the user is odd or even
 
-'''
+"""
 number = int(input("Enter a number : "))
 if(number %2 == 0):
     print(number, "is even number")
 else:
     print(number, "is ODD number")    
 
-'''
+"""
 
-# #################### Practice 14 ######################### 
+# #################### Practice 14 #########################
 
 # Write a program to find the greatest of 3 numbers entered by the user.
 
@@ -227,15 +227,15 @@ print("Greater Number is : ", greater_num)
 
 """
 
-# #################### Practice 15 ######################### 
+# #################### Practice 15 #########################
 
 # Write a program  to check if number is multiple of 7 or not.
 
-'''
+"""
 
 number = int(input("enter a number : "))
 
 if (number % 7 == 0): print(number, "is multiple of 7")
 else: print(number, "is NOT multiple of 7")
 
-'''
+"""

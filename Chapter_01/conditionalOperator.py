@@ -2,11 +2,11 @@
 
 light = input("Light is: ")
 
-if(light == "red"):
+if light == "red":
     print("stop")
-elif(light == "yellow"):
+elif light == "yellow":
     print("ready")
-elif(light == "green"):
+elif light == "green":
     print("Go")
 else:
     print("Light is broken")

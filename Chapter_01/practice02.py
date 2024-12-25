@@ -10,8 +10,8 @@
 #     print("Enter Valid Number")
 # else:
 #     print("The Sum of", num1, "And", num2, "is equal to", sum)
-    
-    
+
+
 ## Practice 02
 
 # Write  a program to input side of a square & prints its area.
@@ -42,7 +42,7 @@ b = int(input("Enter second number : "))
 
 # OR
 
-output  = ("False", "True") [a >= b]
+output = ("False", "True")[a >= b]
 print(output)
 
 # OR
@@ -51,6 +51,3 @@ print(output)
 #     print("True")
 # else:
 #     print("False")
-
-
-        
