@@ -155,3 +155,16 @@ marks = float(input("Marks: "))
 print("Your Name:", name, "| Your Age:", age, "| Your Marks:", marks)
 
 print("typeOF name", type(name), "typeOf Age:", type(age), "typeOf", type(marks))
+
+# #################### Practice 12 ######################### 
+
+# Checking if user can vote or not
+
+age = int(input("Enter your age : ") ) 
+
+if (age < 18 or age > 60):
+    print("You CANNOT Vote")
+elif (age >= 18):
+    print("You CAN vote")
+else:
+    print("Invalid input")
