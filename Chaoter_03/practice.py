@@ -1,5 +1,4 @@
 ################## Practice 01 ##################
-
 # WAP to ask the user to enter names of thier 3 facorite movies & store them in a list.
 
 """
