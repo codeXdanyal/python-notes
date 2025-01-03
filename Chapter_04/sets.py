@@ -1,13 +1,13 @@
 # Sets in python
-
-# Sets is the collection of the unordered (no index) items.
-# Each element is the set must be unique & immutable
-# We can't store list & dictionary in our sets because they are immutable.
-# Only values can be stored not keys.
-# Duplicates values only count single time
-# Sets are mutable means we can add remove elements but the elements of set is immutable we can't change them
-# Set ---> Mutable  | Set Elements ---> Immutable
-
+"""
+Sets is the collection of the unordered (no index) items.
+Each element is the set must be unique & immutable
+We can't store list & dictionary in our sets because they are immutable.
+Only values can be stored not keys.
+Duplicates values only count single time
+Sets are mutable means we can add remove elements but the elements of set is immutable we can't change them
+Set ---> Mutable  | Set Elements ---> Immutable
+"""
 num = {1, 2, 3, 4, 5, 6}
 num2 = {
     1,

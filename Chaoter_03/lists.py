@@ -1,5 +1,4 @@
 # Lists
-
 """
 list = [1, 'abc', 8347.3]
 print(list)
@@ -15,7 +14,6 @@ print(Student)  # 33 becomes 44
 
 # List Slicing
 # syntax: list_name[start:stop] Ending index is not included
-
 """
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(numbers[2:5])
@@ -25,7 +23,6 @@ print(numbers[-9:-1])
 """
 
 # List Methods
-
 """
 alpha = ["one", "two", "three", "two", "three"]
 print(alpha)
@@ -63,5 +60,4 @@ list = name.split()
 print(list)
 # list = name.split(",")
 # list = name.split(",", 2)
-
 """
