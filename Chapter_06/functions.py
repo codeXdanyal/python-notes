@@ -17,20 +17,9 @@ func_name(arg1, arg2..)    #Function call
 # Example
 # Function Definiton
 def sum(a, b):
-    """
-    Calculate the sum of two numbers and print the result.
-
-    Args:
-        a (int or float): The first number.
-        b (int or float): The second number.
-
-    Returns:
-        int or float: The sum of the two numbers.
-    """
     sum = a + b
     print(sum)
     return sum
-
 
 # Function call
 sum(5, 2)  # 5 & 2 are arguments
@@ -63,9 +52,7 @@ range()
 # default parameter starts from right side
 def calc_product(a=0, b=0):
     print(a * b)
-
-
 calc_product()
 
 
-# def add_nums(a=3, b): #error bcz defaults values start from right sdie
+# def add_nums(a=3, b): #give us error bcz defaults values start from right sdie
