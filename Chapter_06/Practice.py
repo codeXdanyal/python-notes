@@ -86,3 +86,17 @@ def check_num(number):
         print("ODD")
 check_num(number)
 """
+
+# Practice 06
+# Guess the number using recursion.
+"""
+guess_num = input("Guess The number: ")
+def check_num(x):
+    if x == "5":
+        print("Correct")
+        return
+    return check_num(input("Try Again: "))
+
+
+check_num(guess_num)
+"""
