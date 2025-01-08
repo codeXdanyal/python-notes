@@ -102,9 +102,8 @@ check_num(guess_num)
 """
 
 # Practice 07
-# find factorial using recursion
-
-
+# Write a recursive function to calculate the factorial of a number x
+"""
 def factorial(x):
     if x == 0 or x == 1:
         return 1
@@ -113,3 +112,18 @@ def factorial(x):
 
 
 print(factorial(10))
+"""
+
+
+# Practice 07
+# Write a recursive function to find the sum of the digits of a number.
+# """
+def sum(x):
+    if x < 10:
+        return x
+    return (x % 10) + sum(x // 10)
+
+
+print("result = ", sum(345))
+
+# """
