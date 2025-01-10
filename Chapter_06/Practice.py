@@ -114,16 +114,27 @@ def factorial(x):
 print(factorial(10))
 """
 
-
 # Practice 07
 # Write a recursive function to find the sum of the digits of a number.
-# """
-def sum(x):
-    if x < 10:
-        return x
-    return (x % 10) + sum(x // 10)
+"""
+def sum(n):
+    if n == 0:
+        return 0
+    return sum(n - 1) + n
+        
+print(sum(15))
+"""
 
+# Practice 08
+# Write a recursive function to print all elements in a list.
+"""
+my_list = ["Apple", "Banana", "Candy", "Dinner", "Elephant", "Fruit", "Golf", "Hello"]
 
-print("result = ", sum(345))
+def print_list(list, idx=0):
+    if idx == len(list):
+        return
+    print(list[idx], end=" ")
+    print_list(list, idx + 1)
 
-# """
+print_list(my_list)
+"""
