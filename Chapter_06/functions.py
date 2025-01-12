@@ -21,6 +21,7 @@ def sum(a, b):
     print(sum)
     return sum
 
+
 # Function call
 sum(5, 2)  # 5 & 2 are arguments
 sum(3, 2)
@@ -52,6 +53,8 @@ range()
 # default parameter starts from right side
 def calc_product(a=0, b=0):
     print(a * b)
+
+
 calc_product()
 
 
