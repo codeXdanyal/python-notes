@@ -1,7 +1,8 @@
-for i in range(0, 100, 1):
-    if i % 3 == 0:
-        print("Fizz 😎")
-    elif i % 5 == 0:
-        print("Buzz 😪")
-    elif i % 3 == 0 and i % 5 == 0:
-        print("FizzBuzz 🥶")
+#Palindrome Checker
+"""
+def palindrome_Checker(x):
+    output = "Palindrone" if x == x[::-1] else "not Palindrome"
+    return output
+    
+print(palindrome_Checker("madam"))
+"""
